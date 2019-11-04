@@ -4,20 +4,20 @@
 <head>
 
   <!-- COMMON TAGS -->
-<meta charset="utf-8">
-<!-- Search Engine -->
-<meta name="image" content=" https://stephytam.github.io/startbootstrap-grayscale/img/aaa.jpg">
-<!-- Schema.org for Google -->
-<meta itemprop="image" content=" https://stephytam.github.io/startbootstrap-grayscale/img/aaa.jpg">
-<!-- Open Graph general (Facebook, Pinterest & Google+) -->
-<meta name="og:image" content=" https://stephytam.github.io/startbootstrap-grayscale/img/aaa.jpg">
-<meta name="og:url" content=" https://stephytam.github.io/startbootstrap-grayscale">
-<meta name="og:site_name" content="demo site">
-<meta name="og:type" content="website">
+  <meta charset="utf-8">
+  <!-- Search Engine -->
+  <meta name="image" content=" https://stephytam.github.io/startbootstrap-grayscale/img/aaa.jpg">
+  <!-- Schema.org for Google -->
+  <meta itemprop="image" content=" https://stephytam.github.io/startbootstrap-grayscale/img/aaa.jpg">
+  <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+  <meta name="og:image" content=" https://stephytam.github.io/startbootstrap-grayscale/img/aaa.jpg">
+  <meta name="og:url" content=" https://stephytam.github.io/startbootstrap-grayscale">
+  <meta name="og:site_name" content="demo site">
+  <meta name="og:type" content="website">
 
-  
+
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  
+
   <meta name="author" content="">
 
 
@@ -205,41 +205,66 @@
       </div>
       <!-- Project Three Row -->
       <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-          <div class="col-lg-6">
-            <div class="slider">
-          </div><img class="background-image:url" src="img/sss.jpg" alt=""></div>
-          <div class="col-lg-6">
-            <div class="bg-black text-center h-100 project">
-              <div class="d-flex h-100">
-                <div class="project-text w-100 my-auto text-center text-lg-left">
-                  <h4 class="text-white">Misty</h4>
-                  <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else,
-                    along with a description.</p>
-                  <hr class="d-none d-lg-block mb-0 ml-0">
-                </div>
+        <div class="col-lg-6">
+          <div class="slider">
+          </div><img class="background-image:url" src="img/sss.jpg" alt="">
+        </div>
+        <div class="col-lg-6">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-left">
+                <h4 class="text-white">Misty</h4>
+                <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else,
+                  along with a description.</p>
+                <hr class="d-none d-lg-block mb-0 ml-0">
               </div>
             </div>
           </div>
         </div>
-  
-        <!-- Project Four Row -->
-        <div class="row justify-content-center no-gutters">
-          <div class="col-lg-6">
-              <div class="slider"></div>
-            <img class="background-image:url" src="img/kkk.jpg" alt=""></div>
-          <div class="col-lg-6 order-lg-first">
-            <div class="bg-black text-center h-100 project">
-              <div class="d-flex h-100">
-                <div class="project-text w-100 my-auto text-center text-lg-right">
-                  <h4 class="text-white">Mountains</h4>
-                  <p class="mb-0 text-white-50">Another example of a project with its respective description. These
-                    sections work well responsively as well, try this theme on a small screen!</p>
-                  <hr class="d-none d-lg-block mb-0 mr-0">
-                </div>
+      </div>
+
+      <style>
+        .project-slider {
+          height: 100%;
+          min-height: 400px;
+        }
+
+        .project-slider .slick-list,
+        .project-slider .slick-track,
+        .project-slider .slick-slide,
+        .project-slider .slick-slide>div {
+          height: 100%;
+        }
+
+        .project-slider .image-bg {
+          height: 100%;
+          background-position: center center;
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+      </style>
+
+      <!-- Project Four Row -->
+      <div class="row justify-content-center no-gutters">
+        <div class="col-lg-6">
+          <div class="slider project-slider">
+           <div class="image-bg" style="background-image:url(img/kkk.jpg);"> </div>
+           <div class="image-bg" style="background-image:url(img/ttt.jpg);"> </div>
+        </div>
+
+        <div class="col-lg-6 order-lg-first">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-right">
+                <h4 class="text-white">Mountains</h4>
+                <p class="mb-0 text-white-50">Another example of a project with its respective description. These
+                  sections work well responsively as well, try this theme on a small screen!</p>
+                <hr class="d-none d-lg-block mb-0 mr-0">
               </div>
             </div>
           </div>
         </div>
+      </div>
 
     </div>
   </section>
@@ -257,21 +282,18 @@
             <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail"
               placeholder="Enter email address...">
             <button type="submit" class="btn btn-primary mx-auto">Subscribe</button>
-            
-<style>
-#google-form{
-  width: 100%;
-  margin-top: 50px;p
-}
-  </style>
 
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfWsrshIHcNSg0sYm6zZjaGwiNGRp1LdBQzrMrCSxfkpNKaHQ/viewform?embedded=true" 
-            width="640" 
-            height="4442" 
-            frameborder="0" 
-            marginheight="0" 
-            marginwidth="0"
-            >正在加载…</iframe>
+            <style>
+              #google-form {
+                width: 100%;
+                margin-top: 50px;
+                p
+              }
+            </style>
+
+            <iframe
+              src="https://docs.google.com/forms/d/e/1FAIpQLSfWsrshIHcNSg0sYm6zZjaGwiNGRp1LdBQzrMrCSxfkpNKaHQ/viewform?embedded=true"
+              width="640" height="4442" frameborder="0" marginheight="0" marginwidth="0">正在加载…</iframe>
           </form>
 
         </div>
